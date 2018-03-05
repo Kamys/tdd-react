@@ -1,19 +1,11 @@
 import React, {Component} from 'react';
+import ListPerson from "./ListPerson";
 
 class App extends Component {
-
-    constructor(args) {
-        super(args);
-
-        this.state = {
-            notes: []
-        };
-    }
-
     render() {
         return (
             <div>
-                <h1>My note manage</h1>
+                <ListPerson/>
             </div>
         );
     }
